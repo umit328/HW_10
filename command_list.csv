@@ -1,0 +1,16 @@
+   99  git status
+  100  git add .
+  101  git commit -m "first commit"
+  102  touch main_test.txt
+  103  git status
+  104  git add .
+  105  git commit -m "second commit"
+  106  git branch develop
+  107  checkout develop
+  108  git branch
+  109  git checkout develop
+  110  touch develop_test.txt
+  111  git add .
+  112  git commit -m "third commit"
+  113  git checkout main
+  114  git merge develop
